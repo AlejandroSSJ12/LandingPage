@@ -31,20 +31,29 @@ body {
 }
 
 .button {
-  background: transparent;
+  background:#ff0000;
+  color: white;
+  font-weight: bold;
   border: none;
   margin: 0;
+  padding: 0.6em 1.3em;
+  display: flex;
+  font-size: 28px;
+  gap: 1rem;
+  align-items: center;
+  box-shadow: 0 0 25px #ff0000, 0 0 25px #ff0000, 0 0 5px #ff0000 inset;
 }
 
 .whatsapp {
   animation: pulse 1.5s infinite;
   background: transparent;
-  cursor: pointer;
   border: none;
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .img-whatsapp{
-  box-shadow: 0 0 25px #ff0000, 0 0 25px #ff0000, 0 0 5px #ff0000 inset;
+  width: 30px;
 }
 
